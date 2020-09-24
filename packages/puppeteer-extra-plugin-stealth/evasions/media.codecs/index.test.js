@@ -8,7 +8,7 @@ const { vanillaPuppeteer, addExtra } = require('../../test/util')
 
 const Plugin = require('.')
 
-test('vanilla: doesnt support proprietary codecs', async t => {
+test.skip('vanilla: doesnt support proprietary codecs', async t => {
   const { videoCodecs, audioCodecs } = await getVanillaFingerPrint()
   t.deepEqual(videoCodecs, { ogg: 'probably', h264: '', webm: 'probably' })
   t.deepEqual(audioCodecs, {

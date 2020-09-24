@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-extra",
+  "name": "@frat/puppeteer-extra",
   "version": "3.1.15",
   "description": "Teach puppeteer new tricks through plugins.",
   "repository": "berstend/puppeteer-extra",
@@ -69,5 +69,8 @@
     "debug": "^4.1.1",
     "deepmerge": "^4.2.2"
   },
-  "gitHead": "babb041828cab50c525e0b9aab02d58f73416ef3"
+  "gitHead": "babb041828cab50c525e0b9aab02d58f73416ef3",
+  "publishConfig": {
+    "access": "public"
+  }
 }
