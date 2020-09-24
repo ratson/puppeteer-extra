@@ -1,6 +1,6 @@
 {
   "name": "@frat/puppeteer-extra",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Teach puppeteer new tricks through plugins.",
   "repository": "ratson/puppeteer-extra",
   "author": "ratson",
